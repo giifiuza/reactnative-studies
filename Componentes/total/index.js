@@ -5,7 +5,12 @@ export default function Total({route, navigation}){
   const {total} = route.params
   return(
     <View style={styles.container}>
-      <Text style={styles.txt}>{total*2}</Text>
+      <Text style={styles.txt}> O dobro é de {total} é: {total*2}</Text>
+      <Button 
+        title='Tela 4'
+        onPress={()=>navigation.navigate('TelaImages')}
+      />
     </View>
+    
   )
 }
