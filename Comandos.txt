@@ -1,0 +1,22 @@
+npm install -g npm
+npm install -g yarn
+npm install -g expo-cli
+Colocar path nas variáveis de ambiente
+npx create-expo-app lista
+cd lista
+yarn
+yarn add @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+yarn add @react-navigation/stack
+yarn add react-native-gesture-handler
+npx expo start --tunnel
+Vai install o ngrok errado
+yarn remove ngrok
+yarn add ngrok@^4.3.3
+code .
+npx expo start --tunnel
+Vai um erro
+npx expo install react-native-web@~0.19.6 react-dom@18.2.0 @expo/webpack-config
+yarn add react-native-shadow-2
+yarn add react-native-svg
+
