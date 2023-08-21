@@ -1,0 +1,10 @@
+Instalar para projeto
+
+npm install -g npm
+npm install -g yarn
+npm install -g expo-cli
+yarn add @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+yarn add @react-navigation/stack
+yarn add react-native-gesture-handler
+npm install react-native-animatable
