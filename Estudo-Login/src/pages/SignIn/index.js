@@ -54,12 +54,14 @@ export default function SignIn(){
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor: '#0077B6'
+        backgroundColor: '#0077B6',
+        fontFamily: 'arial'
     },
     containerHeader:{
         marginTop: '14%',
         marginBottom: '8%',
-        paddingStart: '5%'
+        paddingStart: '5%',
+        fontWeight: 'bold'
     },
     message:{
         fontSize: 28,
