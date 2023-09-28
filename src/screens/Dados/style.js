@@ -22,8 +22,8 @@ const styles = StyleSheet.create({
         fontFamily: 'Inter-SemiBold',
         fontSize: 30,
         padding: 10,
-        marginTop: 40,
-        marginLeft:10
+        marginTop: 30,
+        marginLeft:20
     },
     subTxt:{
         color:'#868686',
@@ -31,7 +31,15 @@ const styles = StyleSheet.create({
         fontSize: 14,
         marginLeft: 30,
         top: 8 
-    }
+    },
+    subTxt2:{
+        color:'#9A9999',
+        fontFamily: 'Inter-Regular',
+        fontSize: 14,
+        marginLeft: 30,
+        top: 40
+    },
+
 })
 
 export default styles

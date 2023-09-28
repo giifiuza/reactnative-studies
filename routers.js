@@ -3,6 +3,8 @@ import Welcome from './src/screens/Welcome/Welcome';
 import Login from './src/screens/Login/Login';
 import SignUp from './src/screens/SignUp/SignUp';
 import Senha from './src/screens/Login/Senha';
+import Dados from './src/screens/Dados/Dados';
+import Principal from './src/screens/Principal/Principal';
 
 const Stack = createNativeStackNavigator()
 export default function Routers() {
@@ -34,6 +36,20 @@ export default function Routers() {
         <Stack.Screen 
           name='SignUp'
           component={SignUp}
+          options={{
+            headerShown:false
+          }}
+        />
+        <Stack.Screen 
+          name='Dados'
+          component={Dados}
+          options={{
+            headerShown:false
+          }}
+        />
+        <Stack.Screen 
+          name='Principal'
+          component={Principal}
           options={{
             headerShown:false
           }}

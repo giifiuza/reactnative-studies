@@ -26,7 +26,7 @@ export default function Senha(){
           <Input />
           <TouchableOpacity > 
             <Text style={styles.subTxt}
-            onPress={() => navigation.navigate('Welcome')}
+            onPress={() => navigation.navigate('Dados')}
             >
               Esqueceu a senha  {'>'} </Text>
           </TouchableOpacity>
