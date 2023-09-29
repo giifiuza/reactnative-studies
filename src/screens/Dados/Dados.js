@@ -17,7 +17,7 @@ export default function Dados(){
   return(
     <Animatable.View animation="fadeInUp" style={styles.body}>
       <TouchableOpacity
-       onPress={() => navigation.navigate('Welcome')}
+       onPress={() => navigation.navigate('SignUp')}
        >
         <Ionicons name="arrow-back-outline" size={30} color="white" marginTop={60} marginLeft={20}/>
       </TouchableOpacity>

@@ -23,7 +23,7 @@ export default function Senha(){
       
       <View>
           <Text style={styles.txt}>Digite sua senha para entra no aplicativo </Text>
-          <Input />
+          <Input  placeh={'8 Dígitos ou mais '} seguranca={true}/>
           <TouchableOpacity > 
             <Text style={styles.subTxt}
             onPress={() => navigation.navigate('Dados')}

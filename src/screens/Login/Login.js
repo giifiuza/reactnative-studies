@@ -31,7 +31,8 @@ export default function Login(){
           </TouchableOpacity>
           {/* <FontAwesome name="fighter-jet" size={24} color="#f00" /> */}
       </View>
-      <Input />
+      <Input 
+      placeh={'123.456.789-12'}/>
       <ButtonNext
       page="Senha"
       />

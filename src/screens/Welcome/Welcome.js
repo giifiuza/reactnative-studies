@@ -40,7 +40,7 @@ export default function Welcome() {
                     <Text style={styles.title}>Controle seu {'\n'}futuro financeiro facilmente</Text>
                     <TouchableOpacity 
                     style={styles.btn}
-                    onPress={() => navigation.navigate('Login')}
+                    onPress={() => navigation.navigate('SignUp')}
                     >
                         <Text style={styles.txt}>Começar</Text>
                     </TouchableOpacity>

@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import {Text, View, TextInput} from 'react-native'
 import styles from './style'
 
-const Input = ({ placeh, style}) => {
+const Input = ({ placeh, style, seguranca}) => {
     const [cpf, setCpf] = useState("")
 
     const styles = StyleSheet.create({
@@ -27,6 +27,7 @@ const Input = ({ placeh, style}) => {
             placeholder={placeh}
             placeholderTextColor="#525151" 
             style={styles.input}
+            secureTextEntry={seguranca}
             onChangeText = {(cpf) => setCpf(cpf)}
             />
     </View>

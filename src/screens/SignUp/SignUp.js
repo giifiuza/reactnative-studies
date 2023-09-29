@@ -3,6 +3,8 @@ import styles from './style'
 import * as Animatable from 'react-native-animatable'
 import { AntDesign } from '@expo/vector-icons'; 
 import { useNavigation } from "@react-navigation/native";
+import Input from '../../components/Input/Input';
+import ButtonNext from '../../components/ButtonNext/ButtonNext';
 
 
 export default function SignUp() {
@@ -20,9 +22,11 @@ export default function SignUp() {
             <Text style={styles.txt}>Boas-vindas à Alpha Bank! Para começar, qual o seu CPF?</Text>
             <Text style={styles.subTxt}> É necessário para dar início ao cadastro </Text>
         </View>
-        <Input />
+        <Input 
+        placeh={"123.456.789-31"}
+        style={{marginTop: 50}}/>
         <ButtonNext
-        page="Senha"
+        page="Dados"
         />
       </Animatable.View>
     )
