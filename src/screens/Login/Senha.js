@@ -26,7 +26,7 @@ export default function Senha(){
           <Input  placeh={'8 Dígitos ou mais '} seguranca={true}/>
           <TouchableOpacity > 
             <Text style={styles.subTxt}
-            onPress={() => navigation.navigate('Dados')}
+            onPress={() => navigation.navigate('Principal')}
             >
               Esqueceu a senha  {'>'} </Text>
           </TouchableOpacity>

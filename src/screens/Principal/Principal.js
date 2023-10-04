@@ -8,15 +8,16 @@ import Input from '../../components/Input/Input';
 import { useNavigation } from "@react-navigation/native";
 import ButtonNext from '../../components/ButtonNext/ButtonNext';
 import Carousel from 'react-native-snap-carousel';
+import Header from '../../components/Header';
 
 
-export default function Login(){
+export default function Principal(){
 
   const navigation = useNavigation();
 
   return(
     <Animatable.View animation="fadeInUp" style={styles.body}>
-      
+      <Header/>
     </Animatable.View>
       
   )
