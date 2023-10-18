@@ -9,6 +9,8 @@ import { useNavigation } from "@react-navigation/native";
 import ButtonNext from '../../components/ButtonNext/ButtonNext';
 import Carousel from 'react-native-snap-carousel';
 import Header from '../../components/Header';
+import Slider from '../../components/Slider';
+import SectionCartao from '../../components/SectionCartao';
 
 
 export default function Principal(){
@@ -18,6 +20,8 @@ export default function Principal(){
   return(
     <Animatable.View animation="fadeInUp" style={styles.body}>
       <Header/>
+      <Slider />
+      <SectionCartao />
     </Animatable.View>
       
   )
