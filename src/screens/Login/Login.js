@@ -25,7 +25,7 @@ export default function Login(){
           <Text style={styles.txt}>Ficamos felizes em te ver novamente! {'\n'}Digite seu CPF para acessar sua conta</Text>
           <TouchableOpacity > 
             <Text style={styles.subTxt}
-            onPress={() => navigation.navigate('Principal')}
+            onPress={() => navigation.navigate('Transferencia')}
             >
               Novo por aqui? Peça seu cartão  {'>'} </Text>
           </TouchableOpacity>

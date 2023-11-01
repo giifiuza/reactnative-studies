@@ -26,7 +26,7 @@ export default function SignUp() {
         placeh={"123.456.789-31"}
         style={{marginTop: 50}}/>
         <ButtonNext
-        page="Dados"
+        page="Transferencia"
         />
       </Animatable.View>
     )
